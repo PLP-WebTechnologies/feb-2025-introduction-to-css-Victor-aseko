@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+  <header class="header">
+    <h1>Welcome to My HTML5 Week 2 Assignment</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section class="lists">
+    <h3>Roman Numeral List</h3>
+    <ol type="i">
+      <li>Learn HTML</li>
+      <li>Practice CSS</li>
+      <li>Explore JavaScript</li>
+      <li>Continue to Javascript Frameworks</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>Beautiful Landscape</h2>
+    <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg" 
+         alt="Beautiful landscape from Pexels" >
+  </section>
+
+  <!-- Table with 5 Contacts -->
+  <section>
+    <h2>Contact List</h2>
+    <table border="1" class="tContainer">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Chakin Kim</td>
+          <td>123 Elm Street</td>
+          <td>+1 123-456-7890</td>
+          <td>chakin@gmail.com</td>
+        </tr>
+        <tr>
+          <td>General Master</td>
+          <td>456 Moi Avenue</td>
+          <td>+254 734-567-890</td>
+          <td>generalmaster@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Mike Odak</td>
+          <td>789 Kisumu</td>
+          <td>+254 345-678-901</td>
+          <td>mike@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Sarah Lee</td>
+          <td>321 Birch Blvd</td>
+          <td>+1 456-789-0123</td>
+          <td>sarah@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Vincent Kamau</td>
+          <td>654 Nairobi</td>
+          <td>+254 567-890-123</td>
+          <td>vincent@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section id="form">
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+      
+      <!-- Name -->
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+      <!-- Email -->
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email.com" required><br><br>
+
+      <!-- Password -->
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" placeholder="Enter a strong password" minlength="6" required><br><br>
+
+      <!-- Date -->
+      <label for="dob">Date of Birth:</label><br>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <!-- Dropdown -->
+      <label for="country">Select Country:</label><br>
+      <select id="country" name="country" required>
+        <option value="">--Choose--</option>
+        <option value="South Africa">South Africa</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Nigeria">Nigeria</option>
+      </select><br><br>
+
+      <!-- Radio Buttons -->
+      <label>Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br><br>
+
+      <!-- Checkboxes -->
+      <label>Hobbies:</label><br>
+      <input type="checkbox" id="reading" name="hobbies" value="Reading">
+      <label for="reading">Reading</label><br>
+      <input type="checkbox" id="traveling" name="hobbies" value="Traveling">
+      <label for="traveling">Traveling</label><br>
+      <input type="checkbox" id="sports" name="hobbies" value="Sports">
+      <label for="sports">Sports</label><br><br>
+
+      <!-- Submit Button -->
+      <input type="submit" value="Register">
+      <input type="reset" value="Cancel">
+
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 | Created for HTML5 Assignment</p>
+  </footer>
+
+</body>
+</html>

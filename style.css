@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/* element selector */
+body{
+    background: #000;    
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+/* Class selector */
+
+.header{
+    text-align: center;
+    color: blue;
+    padding-top: 20px;
+}
+.lists{
+    padding: 20px;
+
+}
+/* Element selector */
+h2{
+    text-align: center;
+}
+/* Styling image */
+img{
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+
+}
+/* Class Selector */
+.tContainer{
+    
+    border-collapse: collapse;
+    padding: 30px;
+    margin: 20px auto;
+
+}
+/* ID selector */
+
+#form {
+    margin: 30px auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #000;
+    width: 80%;
+  }
+  
+ #form form{
+    margin: 10px auto;
+ }
+  
+  #form input,
+  #form select,
+  #form button {
+    padding: 8px;
+    width: 100%;
+    max-width: 200px;
+    /* display: block; */
+  }
